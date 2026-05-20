@@ -290,3 +290,28 @@ A public mythology sandbox dataset designed for:
 - data modelling practice
 
 The dataset should feel realistic, interconnected, and slightly messy, similar to real-world analytical datasets.
+
+## Scope and Selection Rationale
+
+Greek mythology is a vast subject with thousands of characters, places, stories, authors, fragments, retellings, and regional variations. MythosDB is not intended to be a complete academic catalogue of every mythological source or figure.
+
+Instead, this project is designed as a practical, enjoyable sandbox dataset for learning and practising data skills such as SQL, Power BI, Excel, Python, data cleaning, relationship modelling, and dashboard building.
+
+For that reason, the dataset focuses on a selected set of major authors, works, characters, locations, appearances, and relationships. The aim is to provide enough depth and complexity to make the data interesting to explore, without making the project impossible to build, maintain, or understand.
+
+Some authors and works have been included because they are major surviving sources for Greek mythology, such as Homer, Hesiod, Euripides, Sophocles, Apollodorus, Ovid, Virgil, Pausanias, and others. Roman authors are included where their works preserve or reinterpret Greek mythological material.
+
+Many relevant authors, fragmentary sources, local traditions, later commentators, and modern interpretations are not currently included. This is intentional at this stage. The first version of MythosDB prioritises usability, clarity, and relational structure over total coverage.
+
+The dataset can be expanded over time, and contributions are welcome. Suggested additions include:
+
+- additional ancient authors and texts
+- missing mythological characters
+- variant versions of myths
+- extra locations and modern equivalents
+- source references
+- confidence ratings for disputed information
+- relationship corrections or additions
+- alternative Greek, Latin, and English names
+
+MythosDB should be treated as a living dataset: useful for practice, interesting for exploration, and open to improvement.

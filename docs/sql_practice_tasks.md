@@ -12,7 +12,8 @@ These tasks are designed for practising SQL with the MythosDB dataset.
 SELECT *
 FROM characters;
 ```
-###2. Find all Olympian gods
+
+### 2. Find all Olympian gods
 
 ```sql
 SELECT
@@ -22,7 +23,9 @@ SELECT
 FROM characters
 WHERE character_type LIKE '%Olympian%';
 ```
-###3. Find all works written by Homer
+
+### 3. Find all works written by Homer
+
 ```sql
 SELECT
     w.title,
@@ -33,7 +36,9 @@ JOIN authors a
     ON w.author_id = a.author_id
 WHERE a.name = 'Homer';
 ```
-###4. Find all mythological locations
+
+### 4. Find all mythological locations
+
 ```sql
 SELECT
     name,
@@ -41,9 +46,14 @@ SELECT
     notes
 FROM locations
 WHERE mythological = TRUE;
-Join Practice
 ```
-###5. Show works with author names
+
+---
+
+## Join Practice
+
+### 5. Show works with author names
+
 ```sql
 SELECT
     w.title,
@@ -53,7 +63,9 @@ FROM works w
 LEFT JOIN authors a
     ON w.author_id = a.author_id;
 ```
-###6. Show characters and their origin locations
+
+### 6. Show characters and their origin locations
+
 ```sql
 SELECT
     c.name AS character_name,
@@ -64,7 +76,9 @@ FROM characters c
 LEFT JOIN locations l
     ON c.origin_location_id = l.location_id;
 ```
-###7. Show character appearances by work
+
+### 7. Show character appearances by work
+
 ```sql
 SELECT
     w.title AS work_title,
@@ -81,8 +95,11 @@ ORDER BY
     c.name;
 ```
 
-### Aggregation Practice
-8. Count characters by type
+---
+
+## Aggregation Practice
+
+### 8. Count characters by type
 
 ```sql
 SELECT
@@ -92,7 +109,9 @@ FROM characters
 GROUP BY character_type
 ORDER BY character_count DESC;
 ```
-###10. Count works by genre
+
+### 9. Count works by genre
+
 ```sql
 SELECT
     genre,
@@ -101,7 +120,9 @@ FROM works
 GROUP BY genre
 ORDER BY work_count DESC;
 ```
-###11. Count appearances per character
+
+### 10. Count appearances per character
+
 ```sql
 SELECT
     c.name,
@@ -111,9 +132,14 @@ LEFT JOIN character_appearances ca
     ON c.character_id = ca.character_id
 GROUP BY c.name
 ORDER BY appearance_count DESC;
-Relationship Practice
 ```
-###12. Find Zeus's children
+
+---
+
+## Relationship Practice
+
+### 11. Find Zeus's children
+
 ```sql
 SELECT
     target.name AS child_name,
@@ -127,7 +153,9 @@ JOIN characters target
 WHERE source.name = 'Zeus'
   AND r.relationship_type = 'parent_of';
 ```
-###13. Find all killings recorded in relationships
+
+### 12. Find all killings recorded in relationships
+
 ```sql
 SELECT
     source.name AS killer,
@@ -143,7 +171,9 @@ LEFT JOIN works w
     ON r.source_work_id = w.work_id
 WHERE r.relationship_type = 'killed';
 ```
-###14. Find all enemies
+
+### 13. Find all enemies
+
 ```sql
 SELECT
     source.name AS character_one,
@@ -155,9 +185,14 @@ JOIN characters source
 JOIN characters target
     ON r.target_character_id = target.character_id
 WHERE r.relationship_type = 'enemy_of';
-Events Practice
 ```
-###15. Show events with locations and source works
+
+---
+
+## Events Practice
+
+### 14. Show events with locations and source works
+
 ```sql
 SELECT
     e.event_name,
@@ -170,7 +205,9 @@ LEFT JOIN locations l
 LEFT JOIN works w
     ON e.source_work_id = w.work_id;
 ```
-###16. Find all characters involved in the Trojan War events
+
+### 15. Find all characters involved in the Trojan War events
+
 ```sql
 SELECT
     e.event_name,
@@ -185,9 +222,14 @@ WHERE e.event_type LIKE '%Trojan War%'
 ORDER BY
     e.event_name,
     c.name;
-Crimes and Punishments Practice
 ```
-###17. Find actions likely illegal today
+
+---
+
+## Crimes and Punishments Practice
+
+### 16. Find actions likely illegal today
+
 ```sql
 SELECT
     c.name,
@@ -200,7 +242,9 @@ LEFT JOIN characters c
 WHERE cp.likely_illegal_today = 'TRUE'
 ORDER BY cp.severity_rating DESC;
 ```
-###18. Find legally unclear cases
+
+### 17. Find legally unclear cases
+
 ```sql
 SELECT
     c.name,
@@ -211,7 +255,9 @@ LEFT JOIN characters c
     ON cp.character_id = c.character_id
 WHERE cp.likely_illegal_today = 'UNCLEAR';
 ```
-###19. Average severity by character
+
+### 18. Average severity by character
+
 ```sql
 SELECT
     c.name,
@@ -222,9 +268,14 @@ JOIN characters c
     ON cp.character_id = c.character_id
 GROUP BY c.name
 ORDER BY average_severity DESC;
-Challenge Tasks
 ```
-###20. Which works have the most character appearances?
+
+---
+
+## Challenge Tasks
+
+### 19. Which works have the most character appearances?
+
 ```sql
 SELECT
     w.title,
@@ -235,7 +286,9 @@ LEFT JOIN character_appearances ca
 GROUP BY w.title
 ORDER BY appearance_count DESC;
 ```
-###21. Which locations are linked to the most works?
+
+### 20. Which locations are linked to the most works?
+
 ```sql
 SELECT
     l.name,
@@ -246,7 +299,9 @@ LEFT JOIN work_locations wl
 GROUP BY l.name
 ORDER BY work_count DESC;
 ```
-###22. Find characters who have aliases
+
+### 21. Find characters who have aliases
+
 ```sql
 SELECT
     c.name,
@@ -258,7 +313,9 @@ JOIN characters c
     ON ca.character_id = c.character_id
 ORDER BY c.name;
 ```
-###23. Find characters who are both in events and crimes
+
+### 22. Find characters who are both in events and crimes
+
 ```sql
 SELECT DISTINCT
     c.name
@@ -270,4 +327,5 @@ JOIN crimes_and_punishments cp
 ORDER BY c.name;
 ```
 
- because real analysis often starts with a vague question and a suspicious spreadsheet.
+---
+

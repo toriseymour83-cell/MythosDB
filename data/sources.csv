@@ -1,0 +1,26 @@
+source_id,source_type,title,author_id,work_id,language,source_culture,reliability_note,notes
+1,Ancient text,Iliad,1,1,Greek,Greek,Primary ancient literary source,Homeric epic source for Trojan War characters
+2,Ancient text,Odyssey,1,2,Greek,Greek,Primary ancient literary source,Homeric epic source for Odysseus and related figures
+3,Ancient text,Theogony,2,3,Greek,Greek,Primary ancient literary source,Major source for divine genealogy
+4,Ancient text,Works and Days,2,4,Greek,Greek,Primary ancient literary source,Contains Pandora and Ages of Man material
+5,Ancient text,The Histories,3,5,Greek,Greek,Ancient historical source,Includes mythological and legendary references
+6,Ancient text,Oresteia,4,6,Greek,Greek,Primary ancient dramatic source,Agamemnon and related plays are treated separately in works.csv
+7,Ancient text,Oedipus Rex,5,10,Greek,Greek,Primary ancient dramatic source,Major source for Oedipus tradition
+8,Ancient text,Antigone,5,12,Greek,Greek,Primary ancient dramatic source,Major source for Antigone and Creon
+9,Ancient text,Medea,6,16,Greek,Greek,Primary ancient dramatic source,Major source for Medea tradition
+10,Ancient text,The Bacchae,6,18,Greek,Greek,Primary ancient dramatic source,Major source for Dionysus in Thebes
+11,Ancient text,Argonautica,8,26,Greek,Greek,Primary ancient literary source,Major source for Jason Medea and the Argonauts
+12,Ancient text,Bibliotheca,12,28,Greek,Greek,Ancient mythographic source,Systematic but attribution uncertain
+13,Ancient text,Description of Greece,16,33,Greek,Greek,Ancient geographical and mythographic source,Important for local myths cults and places
+14,Ancient text,Metamorphoses,27,44,Latin,Roman,Primary ancient literary source,Roman poetic retelling of Greek and Roman myths
+15,Ancient text,Heroides,27,45,Latin,Roman,Primary ancient literary source,Letters from mythological heroines
+16,Ancient text,Aeneid,28,47,Latin,Roman,Primary ancient literary source,Major Roman continuation of Trojan myth through Aeneas
+17,Ancient text,Fabulae,25,42,Latin,Roman,Ancient mythographic source,Useful mythological handbook but attribution and transmission are complicated
+18,Ancient text,Astronomica,25,43,Latin,Roman,Ancient mythographic source,Useful for constellation myths
+19,Ancient text,Posthomerica,20,37,Greek,Greek,Later ancient literary source,Continues Trojan War material after the Iliad
+20,Ancient text,Dionysiaca,21,38,Greek,Greek,Later ancient literary source,Major source for Dionysus traditions
+21,Modern reference,Theoi Greek Mythology,, ,English,Modern,Secondary reference,Useful for cross-checking characters sources and variants
+22,Modern reference,Perseus Digital Library,, ,English/Greek/Latin,Modern,Text repository,Useful for checking ancient text references
+23,Modern reference,Internet Classics Archive,, ,English,Modern,Text repository,Useful for public domain translations
+24,Modern reference,World History Encyclopedia,, ,English,Modern,Secondary reference,Useful for quick summaries and place context
+25,Modern reference,Britannica,, ,English,Modern,Secondary reference,Useful for basic author and character summaries

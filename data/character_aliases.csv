@@ -1,0 +1,31 @@
+alias_id,character_id,alias_name,alias_type,language_or_culture,notes
+1,1,Jupiter,Roman name,Latin,Roman equivalent of Zeus
+2,1,Zeus Olympios,Title,Greek,Title linked to Zeus as Olympian
+3,2,Juno,Roman name,Latin,Roman equivalent of Hera
+4,3,Neptune,Roman name,Latin,Roman equivalent of Poseidon
+5,4,Ceres,Roman name,Latin,Roman equivalent of Demeter
+6,5,Minerva,Roman name,Latin,Roman equivalent of Athena
+7,6,Apollo,Roman name,Latin,Apollo keeps the same name in Roman tradition
+8,6,Phoebus,Title or epithet,Greek/Latin,Common epithet of Apollo
+9,7,Diana,Roman name,Latin,Roman equivalent of Artemis
+10,8,Mars,Roman name,Latin,Roman equivalent of Ares
+11,9,Venus,Roman name,Latin,Roman equivalent of Aphrodite
+12,10,Vulcan,Roman name,Latin,Roman equivalent of Hephaestus
+13,11,Mercury,Roman name,Latin,Roman equivalent of Hermes
+14,12,Bacchus,Roman name or title,Latin,Roman name associated with Dionysus
+15,13,Pluto,Roman name,Latin,Roman equivalent of Hades
+16,14,Proserpina,Roman name,Latin,Roman equivalent of Persephone
+17,15,Vesta,Roman name,Latin,Roman equivalent of Hestia
+18,16,Saturn,Roman name,Latin,Roman equivalent of Cronus
+19,22,Sol,Roman name,Latin,Roman equivalent of Helios
+20,23,Luna,Roman name,Latin,Roman equivalent of Selene
+21,24,Aurora,Roman name,Latin,Roman equivalent of Eos
+22,30,Hercules,Roman name,Latin,Roman form of Heracles
+23,46,Ulysses,Roman or English variant,Latin/English,Latinised name for Odysseus
+24,55,Aineias,Greek form,Greek,Greek form of Aeneas
+25,56,Hektor,Greek form,Greek,Greek transliteration of Hector
+26,60,Alexandros,Alternative name,Greek,Paris is also called Alexandros
+27,63,Aias,Greek form,Greek,Greek form of Ajax
+28,78,Oidipous,Greek form,Greek,Greek form of Oedipus
+29,85,Teiresias,Greek form,Greek,Greek form of Tiresias
+30,34,Medeia,Greek form,Greek,Greek form of Medea

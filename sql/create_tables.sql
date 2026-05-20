@@ -47,6 +47,14 @@ CREATE TABLE characters (
     FOREIGN KEY (origin_location_id) REFERENCES locations(location_id)
 );
 
+CREATE TABLE relationship_types (
+    relationship_type_id INTEGER PRIMARY KEY,
+    relationship_type TEXT NOT NULL UNIQUE,
+    category TEXT,
+    description TEXT,
+    notes TEXT
+);
+
 CREATE TABLE character_appearances (
     appearance_id INTEGER PRIMARY KEY,
     character_id INTEGER NOT NULL,
@@ -67,15 +75,8 @@ CREATE TABLE relationships (
     notes TEXT,
     FOREIGN KEY (source_character_id) REFERENCES characters(character_id),
     FOREIGN KEY (target_character_id) REFERENCES characters(character_id),
-    FOREIGN KEY (source_work_id) REFERENCES works(work_id)
-);
-
-CREATE TABLE relationship_types (
-    relationship_type_id INTEGER PRIMARY KEY,
-    relationship_type TEXT NOT NULL,
-    category TEXT,
-    description TEXT,
-    notes TEXT
+    FOREIGN KEY (source_work_id) REFERENCES works(work_id),
+    FOREIGN KEY (relationship_type) REFERENCES relationship_types(relationship_type)
 );
 
 CREATE TABLE events (

@@ -1,0 +1,51 @@
+work_id,title,author_id,genre,estimated_date,language,source_culture,notes
+1,Iliad,1,Epic poetry,c.8th century BCE,Greek,Greek,Epic account of events during the Trojan War
+2,Odyssey,1,Epic poetry,c.8th century BCE,Greek,Greek,Epic account of Odysseus journey home
+3,Theogony,2,Didactic poetry,c.700 BCE,Greek,Greek,Origin stories of the gods and divine genealogy
+4,Works and Days,2,Didactic poetry,c.700 BCE,Greek,Greek,Includes mythological material such as Pandora and the Ages of Man
+5,The Histories,3,History,c.440 BCE,Greek,Greek,Historical work containing mythological and legendary references
+6,Agamemnon,4,Tragedy,458 BCE,Greek,Greek,First play of the Oresteia trilogy
+7,The Libation Bearers,4,Tragedy,458 BCE,Greek,Greek,Second play of the Oresteia trilogy
+8,The Eumenides,4,Tragedy,458 BCE,Greek,Greek,Third play of the Oresteia trilogy
+9,Prometheus Bound,4,Tragedy,5th century BCE,Greek,Greek,Traditional attribution to Aeschylus is disputed
+10,Oedipus Rex,5,Tragedy,c.429 BCE,Greek,Greek,The story of Oedipus and the plague at Thebes
+11,Oedipus at Colonus,5,Tragedy,401 BCE,Greek,Greek,Final days of Oedipus
+12,Antigone,5,Tragedy,c.441 BCE,Greek,Greek,Conflict between Antigone and Creon after the Theban war
+13,Ajax,5,Tragedy,5th century BCE,Greek,Greek,Story of Ajax after the awarding of Achilles armour
+14,Electra,5,Tragedy,5th century BCE,Greek,Greek,Story of Electra and Orestes
+15,Philoctetes,5,Tragedy,409 BCE,Greek,Greek,Story of Philoctetes during the Trojan War tradition
+16,Medea,6,Tragedy,431 BCE,Greek,Greek,Story of Medea after Jason leaves her
+17,Hippolytus,6,Tragedy,428 BCE,Greek,Greek,Story involving Phaedra and Hippolytus
+18,The Bacchae,6,Tragedy,405 BCE,Greek,Greek,Dionysus returns to Thebes
+19,The Trojan Women,6,Tragedy,415 BCE,Greek,Greek,Aftermath of the fall of Troy
+20,Helen,6,Tragedy,412 BCE,Greek,Greek,Alternative tradition about Helen in Egypt
+21,Electra,6,Tragedy,c.410 BCE,Greek,Greek,Euripides version of the Electra story
+22,Iphigenia at Aulis,6,Tragedy,405 BCE,Greek,Greek,Sacrifice of Iphigenia before the Trojan expedition
+23,Iphigenia in Tauris,6,Tragedy,c.414 BCE,Greek,Greek,Later story of Iphigenia and Orestes
+24,Heracles,6,Tragedy,c.416 BCE,Greek,Greek,Story of Heracles madness and suffering
+25,Alcestis,6,Tragedy,438 BCE,Greek,Greek,Story of Alcestis and Admetus
+26,Argonautica,8,Epic poetry,3rd century BCE,Greek,Greek,Jason and the Argonauts seek the Golden Fleece
+27,Alexandra,11,Poetry,3rd century BCE,Greek,Greek,Obscure prophetic poem linked to Trojan myth
+28,Bibliotheca,12,Mythography,1st or 2nd century CE,Greek,Greek,Systematic mythological handbook
+29,Bibliotheca historica,13,History,1st century BCE,Greek,Greek,Universal history with mythological material
+30,Geographica,14,Geography,c.7 BCE to 23 CE,Greek,Greek,Geographical work with mythological and heroic traditions
+31,Parallel Lives,15,Biography,c.1st to 2nd century CE,Greek,Greek,Biographical work with mythological and legendary references
+32,Moralia,15,Essays,c.1st to 2nd century CE,Greek,Greek,Essays containing religious and mythological material
+33,Description of Greece,16,Travel writing,2nd century CE,Greek,Greek,Important source for local myths and cults
+34,Dialogues of the Gods,17,Satire,2nd century CE,Greek,Greek,Comic dialogues involving Greek gods
+35,Dialogues of the Dead,17,Satire,2nd century CE,Greek,Greek,Satirical dialogues set in the underworld
+36,Heroicus,19,Dialogue,3rd century CE,Greek,Greek,Heroic traditions linked to the Trojan War
+37,Posthomerica,20,Epic poetry,3rd or 4th century CE,Greek,Greek,Continues the Trojan War story after the Iliad
+38,Dionysiaca,21,Epic poetry,5th century CE,Greek,Greek,Long epic about Dionysus
+39,Metamorphoses Collection,22,Mythography,2nd or 3rd century CE,Greek,Greek,Collection of transformation myths
+40,Love Romances,23,Mythography,1st century BCE,Greek,Greek,Mythological love stories and tragic traditions
+41,Narrations,24,Mythography,1st century BCE or CE,Greek,Greek,Mythological narratives preserved in summary form
+42,Fabulae,25,Mythography,1st century BCE or CE,Latin,Roman,Mythological handbook associated with Hyginus
+43,Astronomica,25,Mythography,1st century BCE or CE,Latin,Roman,Constellation myths and astronomical mythology
+44,Metamorphoses,27,Poetry,8 CE,Latin,Roman,Major Roman poem of transformation myths
+45,Heroides,27,Poetry,c.15 BCE to 8 CE,Latin,Roman,Letters written from mythological heroines
+46,Fasti,27,Poetry,c.8 CE,Latin,Roman,Roman calendar poem with mythological material
+47,Aeneid,28,Epic poetry,29 to 19 BCE,Latin,Roman,Epic of Aeneas and the foundations of Rome
+48,Thebaid,31,Epic poetry,c.92 CE,Latin,Roman,Epic about the war of the Seven Against Thebes
+49,Achilleid,31,Epic poetry,c.1st century CE,Latin,Roman,Unfinished epic about Achilles
+50,Argonautica,35,Epic poetry,1st century CE,Latin,Roman,Latin epic version of Jason and the Argonauts

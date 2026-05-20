@@ -1,0 +1,101 @@
+character_id,name,greek_name,roman_name,character_type,gender,domain,origin_location_id,notes
+1,Zeus,Zeus,Jupiter,Olympian God,Male,Sky and thunder,1,King of the Olympian gods
+2,Hera,Hera,Juno,Olympian Goddess,Female,Marriage and queenship,34,Queen of the gods
+3,Poseidon,Poseidon,Neptune,Olympian God,Male,Sea and earthquakes,24,Brother of Zeus and Hades
+4,Demeter,Demeter,Ceres,Olympian Goddess,Female,Agriculture and harvest,20,Mother of Persephone
+5,Athena,Athena,Minerva,Olympian Goddess,Female,Wisdom and strategy,5,Patron goddess of Athens
+6,Apollo,Apollon,Apollo,Olympian God,Male,Music prophecy and healing,12,Associated with Delphi and Delos
+7,Artemis,Artemis,Diana,Olympian Goddess,Female,Hunting and wilderness,12,Twin sister of Apollo
+8,Ares,Ares,Mars,Olympian God,Male,War,50,God of violent warfare
+9,Aphrodite,Aphrodite,Venus,Olympian Goddess,Female,Love and beauty,32,Associated with Cyprus and Cythera
+10,Hephaestus,Hephaistos,Vulcan,Olympian God,Male,Fire and craft,14,Divine smith
+11,Hermes,Hermes,Mercury,Olympian God,Male,Messengers travel and trade,19,Messenger of the gods
+12,Dionysus,Dionysos,Bacchus,Olympian God,Male,Wine theatre and ecstasy,4,God associated with Thebes
+13,Hades,Hades,Pluto,Chthonic God,Male,Underworld,21,Ruler of the dead
+14,Persephone,Persephone,Proserpina,Chthonic Goddess,Female,Underworld and spring,20,Queen of the Underworld
+15,Hestia,Hestia,Vesta,Olympian Goddess,Female,Hearth and home,1,Virgin goddess of the hearth
+16,Cronus,Kronos,Saturn,Titan,Male,Time and kingship,1,Father of Zeus
+17,Rhea,Rhea,Ops,Titaness,Female,Motherhood,9,Mother of the Olympians
+18,Oceanus,Okeanos,Oceanus,Titan,Male,Cosmic river,24,World encircling river deity
+19,Tethys,Tethys,Tethys,Titaness,Female,Fresh water,24,Consort of Oceanus
+20,Hyperion,Hyperion,Hyperion,Titan,Male,Light,1,Father of Helios Selene and Eos
+21,Theia,Theia,Theia,Titaness,Female,Sight and shining light,1,Mother of heavenly lights
+22,Helios,Helios,Sol,Titan or God,Male,Sun,35,Sun god
+23,Selene,Selene,Luna,Titaness or Goddess,Female,Moon,1,Moon goddess
+24,Eos,Eos,Aurora,Titaness or Goddess,Female,Dawn,1,Dawn goddess
+25,Prometheus,Prometheus,Prometheus,Titan,Male,Forethought and fire,1,Benefactor of humanity
+26,Epimetheus,Epimetheus,Epimetheus,Titan,Male,Afterthought,1,Brother of Prometheus
+27,Atlas,Atlas,Atlas,Titan,Male,Endurance,42,Condemned to hold up the sky
+28,Pan,Pan,Faunus,God,Male,Wild places and shepherds,19,Rustic god of Arcadia
+29,Asclepius,Asklepios,Aesculapius,Hero or God,Male,Medicine,11,Son of Apollo
+30,Heracles,Herakles,Hercules,Hero,Male,Strength and labours,4,Greatest Greek hero
+31,Perseus,Perseus,Perseus,Hero,Male,Monster slaying,8,Slayer of Medusa
+32,Theseus,Theseus,Theseus,Hero,Male,Kingship and heroism,5,Hero of Athens
+33,Jason,Iason,Jason,Hero,Male,Questing and leadership,16,Leader of the Argonauts
+34,Medea,Medeia,Medea,Mortal or Sorceress,Female,Sorcery and revenge,15,Princess of Colchis
+35,Orpheus,Orpheus,Orpheus,Hero,Male,Music and poetry,50,Legendary musician
+36,Eurydice,Eurydike,Eurydice,Mortal,Female,Underworld myth,50,Wife of Orpheus
+37,Achilles,Achilleus,Achilles,Hero,Male,Warrior excellence,30,Greatest Greek warrior at Troy
+38,Patroclus,Patroklos,Patroclus,Hero,Male,Companionship and war,30,Companion of Achilles
+39,Agamemnon,Agamemnon,Agamemnon,Hero or King,Male,Kingship and command,7,Leader of the Greek expedition to Troy
+40,Menelaus,Menelaos,Menelaus,Hero or King,Male,Kingship,6,Husband of Helen
+41,Helen,Helene,Helen,Mortal,Female,Beauty and conflict,6,Central figure in the Trojan War tradition
+42,Clytemnestra,Klytaimnestra,Clytemnestra,Mortal,Female,Queenship and revenge,7,Wife of Agamemnon
+43,Iphigenia,Iphigeneia,Iphigenia,Mortal,Female,Sacrifice,28,Daughter of Agamemnon
+44,Orestes,Orestes,Orestes,Hero,Male,Vengeance and purification,7,Son of Agamemnon
+45,Electra,Elektra,Electra,Mortal,Female,Vengeance and loyalty,7,Daughter of Agamemnon
+46,Odysseus,Odysseus,Ulysses,Hero,Male,Cunning and endurance,3,King of Ithaca
+47,Penelope,Penelope,Penelope,Mortal,Female,Loyalty and weaving,3,Wife of Odysseus
+48,Telemachus,Telemachos,Telemachus,Hero,Male,Coming of age,3,Son of Odysseus
+49,Circe,Kirke,Circe,Enchantress,Female,Magic and transformation,44,Enchantress in the Odyssey
+50,Calypso,Kalypso,Calypso,Nymph,Female,Concealment and desire,45,Nymph who detains Odysseus
+51,Nausicaa,Nausikaa,Nausicaa,Mortal,Female,Hospitality,46,Phaeacian princess
+52,Alcinous,Alkinoos,Alcinous,King,Male,Hospitality,46,King of the Phaeacians
+53,Polyphemus,Polyphemos,Polyphemus,Cyclops,Male,Monstrous strength,48,Cyclops blinded by Odysseus
+54,Aeolus,Aiolos,Aeolus,God or King,Male,Winds,49,Keeper of the winds
+55,Aeneas,Aineias,Aeneas,Hero,Male,Trojan survival and destiny,2,Trojan hero and ancestor figure in Roman myth
+56,Hector,Hektor,Hector,Hero,Male,Trojan defence,2,Prince of Troy
+57,Andromache,Andromache,Andromache,Mortal,Female,Marriage and grief,2,Wife of Hector
+58,Priam,Priamos,Priam,King,Male,Kingship,2,King of Troy
+59,Hecuba,Hekabe,Hecuba,Queen,Female,Queenship and grief,2,Queen of Troy
+60,Paris,Alexandros,Paris,Prince,Male,Judgement and desire,2,Prince of Troy
+61,Cassandra,Kassandra,Cassandra,Princess or Prophetess,Female,Prophecy,2,Trojan prophetess
+62,Laocoon,Laokoon,Laocoon,Priest,Male,Warning and punishment,2,Trojan priest
+63,Ajax the Great,Aias,Ajax,Hero,Male,Strength and honour,27,Greek warrior at Troy
+64,Diomedes,Diomedes,Diomedes,Hero,Male,War and daring,8,Greek hero in the Iliad
+65,Nestor,Nestor,Nestor,King,Male,Wisdom and counsel,31,King of Pylos
+66,Philoctetes,Philoktetes,Philoctetes,Hero,Male,Archery and suffering,14,Greek archer linked to Troy
+67,Bellerophon,Bellerophon,Bellerophon,Hero,Male,Monster slaying,17,Slayer of the Chimera
+68,Pegasus,Pegasos,Pegasus,Creature,Male,Winged horse,17,Winged horse associated with Bellerophon
+69,Medusa,Medousa,Medusa,Monster,Female,Gorgon power,31,Gorgon slain by Perseus
+70,Stheno,Stheno,Stheno,Monster,Female,Gorgon power,31,Immortal Gorgon
+71,Euryale,Euryale,Euryale,Monster,Female,Gorgon power,31,Immortal Gorgon
+72,Minos,Minos,Minos,King,Male,Kingship and judgement,10,King of Crete
+73,Ariadne,Ariadne,Ariadne,Princess,Female,Labyrinth and abandonment,10,Helps Theseus
+74,Phaedra,Phaidra,Phaedra,Queen,Female,Desire and tragedy,10,Wife of Theseus
+75,Minotaur,Minotauros,Minotaur,Monster,Male,Labyrinth,10,Creature in the Labyrinth
+76,Daedalus,Daidalos,Daedalus,Craftsman,Male,Invention and craft,10,Builder of the Labyrinth
+77,Icarus,Ikaros,Icarus,Mortal,Male,Flight and downfall,10,Son of Daedalus
+78,Oedipus,Oidipous,Oedipus,King,Male,Fate and kingship,4,King of Thebes
+79,Jocasta,Iokaste,Jocasta,Queen,Female,Fate and tragedy,4,Mother and wife of Oedipus
+80,Antigone,Antigone,Antigone,Mortal,Female,Family duty and burial,4,Daughter of Oedipus
+81,Ismene,Ismene,Ismene,Mortal,Female,Family and caution,4,Daughter of Oedipus
+82,Eteocles,Eteokles,Eteocles,Prince,Male,Theban conflict,4,Son of Oedipus
+83,Polyneices,Polyneikes,Polynices,Prince,Male,Exile and conflict,4,Son of Oedipus
+84,Creon,Kreon,Creon,King,Male,Authority and law,4,King of Thebes
+85,Tiresias,Teiresias,Tiresias,Prophet,Male,Prophecy,4,Blind prophet of Thebes
+86,Semele,Semele,Semele,Mortal,Female,Mother of Dionysus,4,Mother of Dionysus
+87,Cadmus,Kadmos,Cadmus,Hero or King,Male,Founding and dragons,4,Founder of Thebes
+88,Europa,Europe,Europa,Mortal,Female,Abduction and queenship,9,Associated with Zeus and Crete
+89,Leda,Leda,Leda,Mortal,Female,Motherhood and divine union,6,Mother of Helen and others
+90,Pandora,Pandora,Pandora,Mortal,Female,First woman and curiosity,1,Created by the gods
+91,Deucalion,Deukalion,Deucalion,Hero,Male,Flood survival,42,Survivor of the Greek flood myth
+92,Pyrrha,Pyrrha,Pyrrha,Heroine,Female,Flood survival,42,Wife of Deucalion
+93,Niobe,Niobe,Niobe,Queen,Female,Pride and grief,4,Boasted against Leto
+94,Leto,Leto,Latona,Titaness or Goddess,Female,Motherhood,12,Mother of Apollo and Artemis
+95,Maia,Maia,Maia,Nymph or Pleiad,Female,Motherhood,19,Mother of Hermes
+96,Thetis,Thetis,Thetis,Nereid,Female,Sea and motherhood,24,Mother of Achilles
+97,Peleus,Peleus,Peleus,Hero,Male,Kingship and marriage,30,Father of Achilles
+98,Chiron,Cheiron,Chiron,Centaur,Male,Teaching and healing,30,Wise centaur
+99,Atalanta,Atalante,Atalanta,Heroine,Female,Hunting and speed,18,Huntress linked to the Calydonian Boar
+100,Meleager,Meleagros,Meleager,Hero,Male,Hunting and fate,18,Hero of the Calydonian Boar hunt

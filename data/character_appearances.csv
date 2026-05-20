@@ -1,0 +1,61 @@
+appearance_id,character_id,work_id,role,importance,notes
+1,55,1,Trojan hero,Major,Aeneas appears as a Trojan warrior in the Iliad
+2,55,2,Referenced Trojan survivor,Minor,Aeneas is linked to survival after Troy
+3,55,47,Main hero,Major,Aeneas is the central figure of the Aeneid
+4,46,1,Greek commander,Major,Odysseus appears as a key Greek leader
+5,46,2,Main hero,Major,Odysseus is the central figure of the Odyssey
+6,46,15,Trojan War hero,Major,Odysseus is involved in bringing Philoctetes to Troy
+7,37,1,Greek hero,Major,Achilles is central to the Iliad
+8,37,37,Trojan War hero,Major,Achilles appears in later Trojan War material
+9,37,49,Main hero,Major,Achilles is the subject of the unfinished Achilleid
+10,38,1,Companion of Achilles,Major,Patroclus death shapes the Iliad
+11,39,1,Greek commander,Major,Agamemnon leads the Greek forces
+12,39,6,Murdered king,Major,Agamemnon returns home and is killed
+13,39,7,Murdered father,Major,Agamemnon death motivates Orestes
+14,40,1,Greek king,Major,Menelaus fights at Troy
+15,40,19,Greek king,Minor,Menelaus appears in Trojan aftermath traditions
+16,41,1,Cause of conflict,Major,Helen is central to the Trojan War
+17,41,20,Main figure,Major,Helen appears in an alternative Egypt tradition
+18,41,45,Mythological heroine,Major,Helen appears in Ovid Heroides tradition
+19,42,6,Queen and killer,Major,Clytemnestra kills Agamemnon
+20,42,7,Target of vengeance,Major,Clytemnestra is killed by Orestes
+21,43,22,Sacrificial daughter,Major,Iphigenia is prepared for sacrifice at Aulis
+22,43,23,Priestess,Major,Iphigenia appears in Tauris
+23,44,7,Avenging son,Major,Orestes avenges Agamemnon
+24,44,8,Defendant,Major,Orestes is tried and purified
+25,44,23,Brother of Iphigenia,Major,Orestes appears in Tauris
+26,45,14,Avenging daughter,Major,Electra appears in Sophocles version
+27,45,21,Avenging daughter,Major,Electra appears in Euripides version
+28,34,16,Main figure,Major,Medea takes revenge after Jason abandons her
+29,34,26,Helper and sorceress,Major,Medea helps Jason in the Argonautica
+30,33,26,Quest leader,Major,Jason leads the Argonauts
+31,33,50,Quest leader,Major,Jason appears in the Latin Argonautica
+32,35,44,Musician,Minor,Orpheus appears in transformation myth tradition
+33,35,28,Mythic musician,Minor,Orpheus appears in mythographic tradition
+34,36,44,Wife of Orpheus,Minor,Eurydice appears in Orpheus tradition
+35,30,24,Suffering hero,Major,Heracles appears in Euripides Heracles
+36,30,28,Heroic figure,Major,Heracles appears in mythographic summaries
+37,30,44,Heroic figure,Major,Heracles appears in Ovidian myth
+38,31,28,Hero,Major,Perseus appears in mythographic tradition
+39,31,44,Monster slayer,Major,Perseus appears in Ovid Metamorphoses
+40,69,28,Gorgon,Major,Medusa appears in Perseus myth
+41,69,44,Gorgon,Major,Medusa appears in Ovid Metamorphoses
+42,32,12,Athenian hero,Minor,Theseus is referenced in heroic tradition
+43,32,28,Hero,Major,Theseus appears in mythographic tradition
+44,73,44,Abandoned princess,Major,Ariadne appears in Ovidian tradition
+45,73,28,Helper of Theseus,Major,Ariadne appears in mythographic tradition
+46,75,28,Monster,Major,Minotaur appears in mythographic tradition
+47,76,28,Craftsman,Major,Daedalus appears in mythographic tradition
+48,77,44,Fallen flyer,Major,Icarus appears in Ovid Metamorphoses
+49,78,10,Main figure,Major,Oedipus is central to Oedipus Rex
+50,78,11,Exiled king,Major,Oedipus appears in Oedipus at Colonus
+51,80,12,Main figure,Major,Antigone defies Creon
+52,80,11,Daughter of Oedipus,Major,Antigone supports Oedipus
+53,84,12,King of Thebes,Major,Creon opposes Antigone
+54,85,10,Prophet,Major,Tiresias reveals hidden truth
+55,85,18,Prophet,Minor,Tiresias appears in Theban Dionysus tradition
+56,12,18,Main divine figure,Major,Dionysus returns to Thebes
+57,86,3,Mother of Dionysus,Minor,Semele appears in divine genealogy
+58,87,28,Founder of Thebes,Major,Cadmus appears in mythographic tradition
+59,88,44,Abducted figure,Major,Europa appears in Ovid Metamorphoses
+60,90,3,First woman,Major,Pandora appears in Hesiodic tradition

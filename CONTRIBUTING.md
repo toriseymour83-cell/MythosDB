@@ -33,7 +33,7 @@ Useful contributions include:
 
 Please check whether the record already exists.
 
-For example, before adding a new character, check:
+Before adding a new character, check:
 
 ```text
 data/characters.csv
@@ -155,7 +155,7 @@ Where possible, include:
 - note if the tradition is disputed
 - note if the attribution is uncertain
 
-Use the `source_references.csv` file where a record needs to be linked clearly to a source.
+Use `source_references.csv` where a record needs to be linked clearly to a source.
 
 Confidence levels can be:
 

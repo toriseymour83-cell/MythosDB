@@ -1,0 +1,47 @@
+work_location_id,work_id,location_id,location_role,notes
+1,1,2,Primary setting,Troy is the central setting of the Iliad
+2,1,28,Referenced location,Aulis is part of the wider Trojan War tradition
+3,1,6,Referenced homeland,Sparta is linked to Menelaus and Helen
+4,1,7,Referenced homeland,Mycenae is linked to Agamemnon
+5,1,30,Referenced homeland,Phthia is linked to Achilles
+6,2,3,Primary destination,Ithaca is Odysseus home
+7,2,44,Episode setting,Aiaia is Circe island
+8,2,45,Episode setting,Ogygia is Calypso island
+9,2,46,Episode setting,Scheria is the land of the Phaeacians
+10,2,48,Episode setting,Cyclopes Island is associated with Polyphemus
+11,2,49,Episode setting,Aeolia is associated with Aeolus
+12,3,1,Divine setting,Mount Olympus is linked to divine genealogy
+13,3,21,Mythological realm,The Underworld is linked to chthonic gods
+14,3,23,Mythological realm,Tartarus appears in divine succession traditions
+15,4,1,Divine setting,Olympus is linked to Pandora creation
+16,5,39,Author context,Halicarnassus is linked to Herodotus
+17,6,7,Primary setting,Mycenae is the setting of Agamemnon return
+18,7,7,Primary setting,Mycenae is linked to Orestes vengeance
+19,8,5,Primary setting,Athens is linked to Orestes trial
+20,10,4,Primary setting,Thebes is the setting of Oedipus Rex
+21,11,5,Primary setting,Athens and Colonus frame Oedipus final days
+22,12,4,Primary setting,Thebes is the setting of Antigone
+23,16,17,Primary setting,Corinth is the setting of Medea
+24,18,4,Primary setting,Thebes is the setting of The Bacchae
+25,19,2,Referenced setting,Troy is central to Trojan Women
+26,20,39,Alternative setting,Egypt tradition appears in Helen myth but location is simplified here
+27,22,28,Primary setting,Aulis is the setting of Iphigenia at Aulis
+28,23,29,Primary setting,Tauris is the setting of Iphigenia in Tauris
+29,26,15,Quest destination,Colchis is the destination of Jason quest
+30,26,16,Quest origin,Iolcos is linked to Jason origin
+31,28,10,Myth location,Knossos and Crete are linked to Minos Ariadne and the Minotaur
+32,28,4,Myth location,Thebes appears in many mythographic traditions
+33,28,8,Myth location,Argos appears in heroic genealogy and myth
+34,33,11,Sanctuary,Delphi is an important source of local myth and cult
+35,33,20,Sanctuary,Eleusis is linked to Demeter and Persephone
+36,33,41,Sacred landscape,Mount Helicon is linked to the Muses
+37,37,2,Primary setting,Posthomerica continues Trojan War events
+38,38,4,Important setting,Dionysiaca includes Theban Dionysus material
+39,44,31,Myth location,Medusa and Perseus material is represented through Argive heroic geography
+40,44,10,Myth location,Crete is linked to Daedalus Icarus Ariadne and the Minotaur
+41,44,21,Mythological realm,The Underworld appears in Orpheus tradition
+42,47,2,Origin setting,Aeneas begins from Troy
+43,47,32,Journey location,Cyprus is part of broader eastern Mediterranean mythic geography
+44,48,4,Primary setting,Thebes is central to the Thebaid
+45,49,30,Heroic origin,Phthia is linked to Achilles
+46,50,15,Quest destination,Colchis is central to the Latin Argonautica

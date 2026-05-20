@@ -2,25 +2,40 @@ author_id,name,greek_name,birth_place,estimated_birth_year,estimated_death_year,
 1,Homer,Homeros,Ionia or Chios,-800,-701,Archaic,Epic poetry,Traditional author of the Iliad and Odyssey
 2,Hesiod,Hesiodos,Ascra,-750,-650,Archaic,Didactic poetry,Author of Theogony and Works and Days
 3,Herodotus,Herodotos,Halicarnassus,-484,-425,Classical,History,Author of The Histories
-4,Apollodorus,Pseudo-Apollodorus,Unknown,-200,100,Hellenistic or Roman,Mythography,Associated with the Bibliotheca
-5,Ovid,Publius Ovidius Naso,Sulmo,-43,17,Roman,Poetry,Author of Metamorphoses
-6,Virgil,Publius Vergilius Maro,Mantua,-70,-19,Roman,Epic poetry,Author of the Aeneid
-7,Euripides,Euripides,Athens or Salamis,-480,-406,Classical,Tragedy,Greek tragedian
-8,Sophocles,Sophokles,Colonus,-497,-406,Classical,Tragedy,Greek tragedian
-9,Aeschylus,Aischylos,Eleusis,-525,-456,Classical,Tragedy,Greek tragedian
-10,Pindar,Pindaros,Cynoscephalae,-518,-438,Classical,Lyric poetry,Known for victory odes
-11,Pausanias,Pausanias,Lydia,-110,-180,Roman period,Travel writing,Author of Description of Greece
-12,Plutarch,Ploutarchos,Chaeronea,46,119,Roman period,Biography and essays,Author of Parallel Lives and Moralia
+4,Aeschylus,Aischylos,Eleusis,-525,-456,Classical,Tragedy,One of the three major Greek tragedians
+5,Sophocles,Sophokles,Colonus,-497,-406,Classical,Tragedy,Author of plays including Oedipus Rex and Antigone
+6,Euripides,Euripides,Athens or Salamis,-480,-406,Classical,Tragedy,Author of Medea, Hippolytus, Bacchae and other plays
+7,Pindar,Pindaros,Cynoscephalae,-518,-438,Classical,Lyric poetry,Known for victory odes with mythological material
+8,Apollonius Rhodius,Apollonios Rhodios,Alexandria or Rhodes,-295,-215,Hellenistic,Epic poetry,Author of Argonautica
+9,Callimachus,Callimachos,Cyrene,-310,-240,Hellenistic,Poetry and scholarship,Alexandrian poet and scholar
+10,Theocritus,Theokritos,Syracuse,-300,-260,Hellenistic,Poetry,Pastoral poet with mythological themes
+11,Lycophron,Lykophron,Chalcis,-330,-250,Hellenistic,Poetry,Associated with the Alexandra
+12,Apollodorus,Pseudo-Apollodorus,Unknown,-200,100,Hellenistic or Roman,Mythography,Associated with the Bibliotheca
 13,Diodorus Siculus,Diodoros Sikeliotes,Agyrium,-90,-30,Hellenistic,History,Author of Bibliotheca historica
-14,Apollonius Rhodius,Apollonios Rhodios,Alexandria or Rhodes,-295,-215,Hellenistic,Epic poetry,Author of Argonautica
-15,Callimachus,Callimachos,Cyrene,-310,-240,Hellenistic,Poetry and scholarship,Alexandrian poet and scholar
-16,Quintus Smyrnaeus,Quintus Smyrnaeus,Smyrna,200,300,Imperial Greek,Epic poetry,Author of Posthomerica
-17,Nonnus,Nonnos,Panopolis,400,470,Late Antiquity,Epic poetry,Author of Dionysiaca
-18,Lucian,Lucianos,Samosata,125,180,Roman period,Satire,Author of satirical dialogues involving gods
-19,Hyginus,Gaius Julius Hyginus,Unknown,-64,17,Roman,Mythography,Associated with Fabulae and Astronomica
-20,Antoninus Liberalis,Antoninus Liberalis,Unknown,100,300,Roman period,Mythography,Author of Metamorphoses collection
-21,Parthenius of Nicaea,Parthenios,Nicaea,-100,-14,Hellenistic,Poetry and mythography,Author of Love Romances
-22,Strabo,Strabon,Amasia,-64,24,Roman period,Geography,Author of Geographica
-23,Arrian,Arrianos,Nicomedia,86,160,Roman period,History,Author of Anabasis and other works
-24,Philostratus,Philostratos,Lemnos,170,247,Roman period,Biography and rhetoric,Associated with Heroicus
-25,Pseudo-Hyginus,Pseudo-Hyginus,Unknown,0,300,Roman,Mythography,Attribution uncertain
+14,Strabo,Strabon,Amasia,-64,24,Roman period,Geography,Author of Geographica
+15,Plutarch,Ploutarchos,Chaeronea,46,119,Roman period,Biography and essays,Author of Parallel Lives and Moralia
+16,Pausanias,Pausanias,Lydia,110,180,Roman period,Travel writing,Author of Description of Greece
+17,Lucian,Lucianos,Samosata,125,180,Roman period,Satire,Author of satirical dialogues involving gods
+18,Arrian,Arrianos,Nicomedia,86,160,Roman period,History,Author of Anabasis and other works
+19,Philostratus,Philostratos,Lemnos,170,247,Roman period,Biography and rhetoric,Associated with Heroicus
+20,Quintus Smyrnaeus,Quintus Smyrnaeus,Smyrna,200,300,Imperial Greek,Epic poetry,Author of Posthomerica
+21,Nonnus,Nonnos,Panopolis,400,470,Late Antiquity,Epic poetry,Author of Dionysiaca
+22,Antoninus Liberalis,Antoninus Liberalis,Unknown,100,300,Roman period,Mythography,Author of a Metamorphoses collection
+23,Parthenius of Nicaea,Parthenios,Nicaea,-100,-14,Hellenistic,Poetry and mythography,Author of Love Romances
+24,Conon,Konon,Unknown,-50,50,Roman period,Mythography,Known for mythological narratives preserved in summary
+25,Hyginus,Gaius Julius Hyginus,Unknown,-64,17,Roman,Mythography,Associated with Fabulae and Astronomica
+26,Pseudo-Hyginus,Pseudo-Hyginus,Unknown,0,300,Roman,Mythography,Attribution uncertain
+27,Ovid,Publius Ovidius Naso,Sulmo,-43,17,Roman,Poetry,Author of Metamorphoses and Heroides
+28,Virgil,Publius Vergilius Maro,Mantua,-70,-19,Roman,Epic poetry,Author of the Aeneid
+29,Horace,Quintus Horatius Flaccus,Venusia,-65,-8,Roman,Lyric poetry,Includes mythological references
+30,Seneca,Lucius Annaeus Seneca,Corduba,-4,65,Roman,Tragedy and philosophy,Author of mythological tragedies
+31,Statius,Publius Papinius Statius,Naples,45,96,Roman,Epic poetry,Author of Thebaid and Achilleid
+32,Propertius,Sextus Propertius,Assisi,-50,-15,Roman,Elegiac poetry,Includes mythological allusions
+33,Tibullus,Albius Tibullus,Unknown,-55,-19,Roman,Elegiac poetry,Includes mythological allusions
+34,Catullus,Gaius Valerius Catullus,Verona,-84,-54,Roman,Poetry,Includes mythological poems and references
+35,Valerius Flaccus,Gaius Valerius Flaccus,Unknown,45,90,Roman,Epic poetry,Author of Argonautica
+36,Claudian,Claudius Claudianus,Alexandria,370,404,Late Antiquity,Poetry,Author of mythological and political poems
+37,Orpheus,Pseudo-Orpheus,Legendary,,-,Mythic or attributed,Poetry,Traditional attribution for Orphic hymns and literature
+38,Moschus,Moschos,Syracuse,-150,-100,Hellenistic,Poetry,Associated with mythological poems
+39,Bion,Bion,Smyrna,-150,-100,Hellenistic,Poetry,Associated with pastoral and mythological poetry
+40,Tzetzes,Ioannes Tzetzes,Constantinople,1110,1180,Byzantine,Commentary and scholarship,Later source preserving mythological material

@@ -4,7 +4,7 @@ author_id,name,greek_name,birth_place,estimated_birth_year,estimated_death_year,
 3,Herodotus,Herodotos,Halicarnassus,-484,-425,Classical,History,Author of The Histories
 4,Aeschylus,Aischylos,Eleusis,-525,-456,Classical,Tragedy,One of the three major Greek tragedians
 5,Sophocles,Sophokles,Colonus,-497,-406,Classical,Tragedy,Author of plays including Oedipus Rex and Antigone
-6,Euripides,Euripides,Athens or Salamis,-480,-406,Classical,Tragedy,Author of Medea, Hippolytus, Bacchae and other plays
+6,Euripides,Euripides,Athens or Salamis,-480,-406,Classical,Tragedy,"Author of Medea, Hippolytus, Bacchae and other plays"
 7,Pindar,Pindaros,Cynoscephalae,-518,-438,Classical,Lyric poetry,Known for victory odes with mythological material
 8,Apollonius Rhodius,Apollonios Rhodios,Alexandria or Rhodes,-295,-215,Hellenistic,Epic poetry,Author of Argonautica
 9,Callimachus,Callimachos,Cyrene,-310,-240,Hellenistic,Poetry and scholarship,Alexandrian poet and scholar
@@ -35,7 +35,7 @@ author_id,name,greek_name,birth_place,estimated_birth_year,estimated_death_year,
 34,Catullus,Gaius Valerius Catullus,Verona,-84,-54,Roman,Poetry,Includes mythological poems and references
 35,Valerius Flaccus,Gaius Valerius Flaccus,Unknown,45,90,Roman,Epic poetry,Author of Argonautica
 36,Claudian,Claudius Claudianus,Alexandria,370,404,Late Antiquity,Poetry,Author of mythological and political poems
-37,Orpheus,Pseudo-Orpheus,Legendary,,-,Mythic or attributed,Poetry,Traditional attribution for Orphic hymns and literature
+37,Orpheus,Pseudo-Orpheus,Legendary,,,Mythic or attributed,Poetry,Traditional attribution for Orphic hymns and literature
 38,Moschus,Moschos,Syracuse,-150,-100,Hellenistic,Poetry,Associated with mythological poems
 39,Bion,Bion,Smyrna,-150,-100,Hellenistic,Poetry,Associated with pastoral and mythological poetry
 40,Tzetzes,Ioannes Tzetzes,Constantinople,1110,1180,Byzantine,Commentary and scholarship,Later source preserving mythological material

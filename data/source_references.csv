@@ -1,0 +1,26 @@
+reference_id,entity_type,entity_id,source_id,reference_note,confidence_level
+1,character,55,1,Aeneas appears in the Iliad,High
+2,character,55,16,Aeneas is the central hero of the Aeneid,High
+3,character,46,2,Odysseus is the central hero of the Odyssey,High
+4,character,37,1,Achilles is central to the Iliad,High
+5,character,34,9,Medea is central to Euripides Medea,High
+6,character,33,11,Jason appears in Apollonius Rhodius Argonautica,High
+7,character,78,7,Oedipus is central to Oedipus Rex,High
+8,character,80,8,Antigone is central to Sophocles Antigone,High
+9,character,12,10,Dionysus is central to The Bacchae,High
+10,character,90,4,Pandora appears in Hesiod Works and Days,High
+11,relationship,56,2,Odysseus and Penelope are linked in the Odyssey,High
+12,relationship,61,2,Odysseus and Polyphemus are linked in the Odyssey,High
+13,relationship,74,6,Clytemnestra kills Agamemnon in Agamemnon,High
+14,relationship,75,7,Orestes kills Clytemnestra in The Libation Bearers,High
+15,relationship,78,1,Paris and Helen are central to Trojan War tradition,Medium
+16,event,8,1,Wrath of Achilles is central to the Iliad,High
+17,event,13,2,Odysseus blinds Polyphemus in the Odyssey,High
+18,event,17,6,Agamemnon murder is central to Aeschylus Agamemnon,High
+19,event,22,9,Medea revenge is central to Euripides Medea,High
+20,event,28,8,Antigone burial conflict is central to Sophocles Antigone,High
+21,event,30,14,Orpheus and Eurydice appear in Ovid Metamorphoses tradition,High
+22,location,2,1,Troy is the central location of the Iliad,High
+23,location,3,2,Ithaca is Odysseus home in the Odyssey,High
+24,location,10,12,Crete and Knossos are linked to Minos and the Minotaur in mythographic tradition,Medium
+25,location,21,14,The Underworld appears in multiple myth traditions including Orpheus,High

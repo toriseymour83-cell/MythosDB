@@ -1,5 +1,5 @@
 -- MythosDB sample queries
--- These are designed for SQL practice after importing the CSV files.
+-- These queries are designed for SQL practice after importing the CSV files.
 
 -- 1. Show all works with their authors
 
@@ -170,7 +170,7 @@ ORDER BY
     name;
 
 
--- 11. Show crimes that would likely be illegal today
+-- 11. Show actions that would likely be illegal today
 
 SELECT
     c.name AS character_name,
@@ -204,10 +204,11 @@ LEFT JOIN events e
     ON cp.event_id = e.event_id
 WHERE cp.likely_illegal_today = 'UNCLEAR'
 ORDER BY
-    cp.severity_rating DESC;
+    cp.severity_rating DESC,
+    c.name;
 
 
--- 13. Which characters have the highest average crime severity?
+-- 13. Which characters have the highest average severity rating?
 
 SELECT
     c.name,
@@ -251,5 +252,91 @@ FROM source_references sr
 JOIN sources s
     ON sr.source_id = s.source_id
 ORDER BY
+    sr.entity_type,
+    sr.entity_id;
+
+
+-- 16. Count relationships by type
+
+SELECT
+    relationship_type,
+    COUNT(*) AS relationship_count
+FROM relationships
+GROUP BY
+    relationship_type
+ORDER BY
+    relationship_count DESC,
+    relationship_type;
+
+
+-- 17. Show relationships by category
+
+SELECT
+    rt.category,
+    r.relationship_type,
+    COUNT(*) AS relationship_count
+FROM relationships r
+LEFT JOIN relationship_types rt
+    ON r.relationship_type = rt.relationship_type
+GROUP BY
+    rt.category,
+    r.relationship_type
+ORDER BY
+    rt.category,
+    relationship_count DESC;
+
+
+-- 18. Find works linked to Troy
+
+SELECT
+    w.title,
+    a.name AS author,
+    wl.location_role,
+    wl.notes
+FROM work_locations wl
+JOIN works w
+    ON wl.work_id = w.work_id
+LEFT JOIN authors a
+    ON w.author_id = a.author_id
+JOIN locations l
+    ON wl.location_id = l.location_id
+WHERE l.name = 'Troy'
+ORDER BY
+    w.title;
+
+
+-- 19. Find characters involved in events linked to Troy
+
+SELECT
+    e.event_name,
+    c.name AS character_name,
+    ec.event_role
+FROM event_characters ec
+JOIN events e
+    ON ec.event_id = e.event_id
+JOIN characters c
+    ON ec.character_id = c.character_id
+JOIN locations l
+    ON e.primary_location_id = l.location_id
+WHERE l.name = 'Troy'
+ORDER BY
+    e.event_name,
+    c.name;
+
+
+-- 20. Find records with medium or disputed confidence
+
+SELECT
+    sr.entity_type,
+    sr.entity_id,
+    s.title AS source_title,
+    sr.reference_note,
+    sr.confidence_level
+FROM source_references sr
+JOIN sources s
+    ON sr.source_id = s.source_id
+WHERE sr.confidence_level IN ('Medium', 'Disputed')
+ORDER BY
+    sr.confidence_level,
     sr.entity_type,
     sr.entity_id;

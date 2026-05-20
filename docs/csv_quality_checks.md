@@ -2,6 +2,7 @@
 
 This document explains basic checks to run when adding or editing MythosDB CSV files.
 
+CSV files rely on consistent structure. Each row must contain the same number of fields as the header row.
 
 ---
 
@@ -25,7 +26,7 @@ author_id,name,notes
 1,Homer,Traditional author of the Iliad, Odyssey, and other works
 ```
 
-The commas inside the note make the row look like it has extra columns.
+The commas inside the note make the row appear to have extra columns.
 
 Correct version:
 
@@ -51,7 +52,7 @@ character_id,name,notes
 
 Use the exact same column names across the dataset and documentation.
 
-Good:
+Use:
 
 ```text
 character_id
@@ -60,7 +61,7 @@ location_id
 event_id
 ```
 
-Avoid changing these to slightly different versions, such as:
+Avoid inconsistent alternatives such as:
 
 ```text
 characterID
@@ -83,23 +84,15 @@ character_id,name,roman_name
 
 This means Aeneas has no value entered in the `roman_name` field.
 
-Do not use random placeholders unless they are meaningful.
-
-Avoid:
-
-```text
-N/A
-unknown?
-none lol
-```
-
-Preferred values:
+Preferred values for unknown or uncertain fields include:
 
 ```text
 Unknown
 Unclear
 Not applicable
 ```
+
+Use these consistently where a blank field would be unclear.
 
 ---
 
@@ -158,7 +151,7 @@ should match:
 locations.location_id
 ```
 
-Before adding new records, check that the linked ID actually exists.
+Before adding new records, check that the linked ID exists.
 
 Example:
 
@@ -175,7 +168,7 @@ This works only if location ID `3` exists in `locations.csv`.
 
 Each table should have unique IDs.
 
-For example, this is wrong:
+This is incorrect:
 
 ```csv
 character_id,name
@@ -193,31 +186,31 @@ character_id,name
 
 ---
 
-## 9. Keep Text Simple
+## 9. Keep Text Fields Simple
 
-Avoid using commas, line breaks, or quotation marks inside notes unless needed.
+Avoid unnecessary commas, line breaks, or quotation marks inside text fields.
 
-Simpler:
+Preferred:
 
 ```csv
 notes
 King of the Olympian gods
 ```
 
-More likely to break:
+More complex text may require careful quoting:
 
 ```csv
 notes
-"King of the gods, ruler of Olympus, ""father"" of many heroes"
+"King of the gods, ruler of Olympus, and father of many heroes"
 ```
 
 ---
 
-## 10. GitHub CSV Preview
+## 10. Check GitHub CSV Preview
 
 GitHub can preview CSV files as tables.
 
-If GitHub says something like:
+If GitHub displays an error such as:
 
 ```text
 We can make this file beautiful and searchable if this error is corrected
@@ -235,10 +228,10 @@ Before committing a CSV file:
 
 1. Check the header row.
 2. Check that every row has the same number of fields.
-3. Search for commas inside notes.
+3. Search for commas inside notes or descriptions.
 4. Put quotes around fields that contain commas.
 5. Check that IDs are unique.
-6. Check that linked IDs exist in the parent table.
+6. Check that linked IDs exist in the relevant parent table.
 7. Preview the file in GitHub after committing.
 
 ---
@@ -246,17 +239,11 @@ Before committing a CSV file:
 ## 12. Suggested Commit Message
 
 ```text
-Add CSV quality checks
+Replace CSV quality checks with neutral version
 ```
 
 ---
 
 ## Quick Rule
 
-When in doubt:
-
-```text
 If a field contains a comma, wrap the whole field in quotation marks.
-```
-
-

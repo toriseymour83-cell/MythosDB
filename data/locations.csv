@@ -1,0 +1,51 @@
+location_id,name,modern_equivalent,location_type,mythological,latitude,longitude,region,notes
+1,Mount Olympus,Greece,Mountain,FALSE,40.0856,22.3589,Thessaly/Macedonia,Home of the Olympian gods
+2,Troy,Hisarlik Turkey,City,FALSE,39.9578,26.2389,Troad,City at the centre of the Trojan War tradition
+3,Ithaca,Ithaca Greece,Island,FALSE,38.3674,20.7200,Ionian Islands,Kingdom of Odysseus
+4,Thebes,Thebes Greece,City,FALSE,38.3250,23.3189,Boeotia,City linked to Oedipus Dionysus and Heracles
+5,Athens,Athens Greece,City,FALSE,37.9838,23.7275,Attica,City associated with Athena Theseus and many myths
+6,Sparta,Sparta Greece,City,FALSE,37.0745,22.4301,Laconia,Home of Menelaus and Helen in mythic tradition
+7,Mycenae,Mykines Greece,City,FALSE,37.7308,22.7561,Argolis,Seat of Agamemnon
+8,Argos,Argos Greece,City,FALSE,37.6356,22.7286,Argolis,Important centre in heroic myth
+9,Crete,Crete Greece,Island,FALSE,35.2401,24.8093,Aegean,Island of Minos Ariadne and the Minotaur
+10,Knossos,Knossos Greece,Palace/Fortified Site,FALSE,35.2988,25.1631,Crete,Palace associated with Minos and the Labyrinth
+11,Delphi,Delphi Greece,Sanctuary,FALSE,38.4800,22.5010,Phocis,Site of Apollo oracle
+12,Delos,Delos Greece,Island,FALSE,37.3933,25.2711,Cyclades,Birthplace of Apollo and Artemis
+13,Naxos,Naxos Greece,Island,FALSE,37.1021,25.3764,Cyclades,Associated with Ariadne and Dionysus
+14,Lemnos,Lemnos Greece,Island,FALSE,39.9239,25.2453,North Aegean,Linked with Hephaestus and Philoctetes
+15,Colchis,Western Georgia,Region,FALSE,42.3000,42.7000,Caucasus,Destination of Jason and the Argonauts
+16,Iolcos,Volos Greece,City,FALSE,39.3610,22.9425,Thessaly,Home of Jason
+17,Corinth,Corinth Greece,City,FALSE,37.9386,22.9322,Corinthia,Associated with Medea and Bellerophon
+18,Calydon,Near Evinochori Greece,City/Region,FALSE,38.3500,21.5500,Aetolia,Site of the Calydonian Boar hunt
+19,Arcadia,Central Peloponnese Greece,Region,FALSE,37.5000,22.3000,Peloponnese,Associated with Pan and pastoral myth
+20,Eleusis,Elefsina Greece,Sanctuary/City,FALSE,38.0414,23.5429,Attica,Linked to Demeter Persephone and the Eleusinian Mysteries
+21,Hades/Underworld,,Realm,TRUE,,,Mythological Realm,Realm of the dead
+22,Elysium,,Realm,TRUE,,,Mythological Realm,Blessed afterlife realm
+23,Tartarus,,Realm,TRUE,,,Mythological Realm,Deep abyss used as prison or place of punishment
+24,Oceanus,,Cosmic River,TRUE,,,Mythological Geography,World-encircling river
+25,Olympus Divine Palace,,Divine Realm,TRUE,,,Mythological Realm,Mythic residence of the Olympians
+26,Scyros,Skyros Greece,Island,FALSE,38.9047,24.5633,Sporades,Associated with Achilles
+27,Salamis,Salamina Greece,Island,FALSE,37.9500,23.5000,Saronic Gulf,Associated with Ajax
+28,Aulis,Avlida Greece,Harbour,FALSE,38.3833,23.6000,Boeotia,Greek fleet gathering point before Troy
+29,Tauris,Crimea,Region,FALSE,45.3000,34.4000,Black Sea,Associated with Iphigenia in Tauris
+30,Phthia,Central Greece,Region,FALSE,39.0000,22.5000,Thessaly,Homeland of Achilles
+31,Pylos,Pylos Greece,City,FALSE,36.9128,21.6964,Messenia,Kingdom of Nestor
+32,Cyprus,Cyprus,Island,FALSE,35.1264,33.4299,Eastern Mediterranean,Associated with Aphrodite
+33,Cythera,Kythira Greece,Island,FALSE,36.1490,22.9890,Ionian/Southern Greece,Associated with Aphrodite
+34,Samos,Samos Greece,Island,FALSE,37.7548,26.9778,Aegean,Associated with Hera worship
+35,Rhodes,Rhodes Greece,Island,FALSE,36.4341,28.2176,Dodecanese,Associated with Helios
+36,Lesbos,Lesbos Greece,Island,FALSE,39.2645,26.2777,North Aegean,Associated with lyric poetry and mythic references
+37,Chios,Chios Greece,Island,FALSE,38.3700,26.1360,North Aegean,One traditional birthplace of Homer
+38,Ionia,Western Turkey,Region,FALSE,38.5000,27.0000,Asia Minor,Traditional region associated with Homeric poetry
+39,Halicarnassus,Bodrum Turkey,City,FALSE,37.0344,27.4305,Caria,Birthplace of Herodotus
+40,Ascra,Near Mount Helicon Greece,Village,FALSE,38.3150,22.9750,Boeotia,Associated with Hesiod
+41,Mount Helicon,Mount Helicon Greece,Mountain,FALSE,38.3500,22.9500,Boeotia,Associated with the Muses
+42,Mount Parnassus,Mount Parnassus Greece,Mountain,FALSE,38.5333,22.6167,Central Greece,Associated with Apollo Dionysus and the Muses
+43,Cephalonia,Kefalonia Greece,Island,FALSE,38.1754,20.5692,Ionian Islands,Linked to western Greek heroic geography
+44,Aiaia,,Mythic Island,TRUE,,,Mythological Geography,Island of Circe in the Odyssey
+45,Ogygia,,Mythic Island,TRUE,,,Mythological Geography,Island of Calypso in the Odyssey
+46,Scheria,,Mythic Island/Kingdom,TRUE,,,Mythological Geography,Land of the Phaeacians
+47,Ismarus,,City/Region,FALSE,,,Thrace,Odysseus raids the Cicones after Troy
+48,Cyclopes Island,,Mythic Island,TRUE,,,Mythological Geography,Land of Polyphemus in the Odyssey
+49,Aeolia,,Mythic Island,TRUE,,,Mythological Geography,Island of Aeolus
+50,Thrace,Balkans/European Turkey Region,Region,FALSE,41.0000,26.0000,Thrace,Region linked to Orpheus Dionysus and several myths

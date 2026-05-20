@@ -1,0 +1,24 @@
+relationship_type_id,relationship_type,category,description,notes
+1,parent_of,Family,Source character is parent of target character,Use with reverse relationship child_of where useful
+2,child_of,Family,Source character is child of target character,Useful where the child is the main focus
+3,sibling_of,Family,Characters are siblings,Can be reciprocal
+4,spouse_of,Family or marriage,Characters are married or treated as spouses,Can be reciprocal
+5,partner_of,Romantic or narrative partnership,Characters are linked romantically or narratively,Less formal than spouse_of
+6,ally_of,Alliance,Characters support or fight alongside each other,Can be political military or personal
+7,enemy_of,Conflict,Characters oppose each other,Can include war rivalry or personal hostility
+8,killed,Violence,Source character kills target character,Use only where the tradition is clear enough
+9,abducted,Violence or mythic action,Source character abducts target character,Useful but traditions may vary
+10,abducted_or_eloped_with,Ambiguous movement,Used where the tradition varies between abduction and elopement,Good example of uncertain myth data
+11,helped,Assistance,Source character helps target character,Can include divine support or practical help
+12,hosted,Hospitality,Source character hosts target character,Useful for Odyssey episodes
+13,detained,Restriction,Source character detains target character,Used for Calypso and similar stories
+14,detained_or_transformed,Magic or restriction,Source character detains or transforms others,Used where both elements matter
+15,visited_realm_of,Journey,Source character enters a realm ruled by target character,Useful for Underworld journeys
+16,rider_of,Association,Source character rides or uses target creature,Used for Pegasus and Bellerophon
+17,built_prison_for,Craft or containment,Source character creates structure for target character,Used for Daedalus and Minotaur
+18,parent_source_of,Birth or emergence,Target character emerges from source character or event,Used for unusual births
+19,associated_with,Loose association,Characters are linked but relationship is not simple,Use sparingly
+20,advised,Counsel,Source character advises target character,Useful for wise counsellors
+21,warned_or_revealed_truth_to,Prophecy or knowledge,Source character warns or reveals truth to target character,Useful for prophets
+22,took_revenge_on,Revenge,Source character takes revenge on target character,May overlap with killed or harmed
+23,step_parent_or_owner_of,Ambiguous authority,Used where family ownership or control is awkward to classify,Good example of messy myth data

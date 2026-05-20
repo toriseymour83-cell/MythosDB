@@ -1,0 +1,101 @@
+relationship_id,source_character_id,target_character_id,relationship_type,source_work_id,notes
+1,1,5,parent_of,3,Zeus is father of Athena
+2,1,6,parent_of,3,Zeus is father of Apollo
+3,1,7,parent_of,3,Zeus is father of Artemis
+4,1,8,parent_of,3,Zeus is father of Ares
+5,1,11,parent_of,3,Zeus is father of Hermes
+6,1,12,parent_of,3,Zeus is father of Dionysus
+7,1,30,parent_of,28,Zeus is father of Heracles
+8,1,41,parent_of,28,Zeus is father of Helen in one tradition
+9,1,88,abducted,44,Zeus abducts Europa
+10,2,8,parent_of,3,Hera is mother of Ares
+11,2,10,parent_of,3,Hera is mother of Hephaestus in some traditions
+12,3,67,parent_of,28,Poseidon is father of Bellerophon in some traditions
+13,3,53,parent_of,2,Poseidon is father of Polyphemus
+14,4,14,parent_of,3,Demeter is mother of Persephone
+15,13,14,spouse_of,3,Hades is husband of Persephone
+16,16,1,parent_of,3,Cronus is father of Zeus
+17,16,2,parent_of,3,Cronus is father of Hera
+18,16,3,parent_of,3,Cronus is father of Poseidon
+19,16,4,parent_of,3,Cronus is father of Demeter
+20,16,13,parent_of,3,Cronus is father of Hades
+21,16,15,parent_of,3,Cronus is father of Hestia
+22,17,1,parent_of,3,Rhea is mother of Zeus
+23,17,2,parent_of,3,Rhea is mother of Hera
+24,17,3,parent_of,3,Rhea is mother of Poseidon
+25,17,4,parent_of,3,Rhea is mother of Demeter
+26,17,13,parent_of,3,Rhea is mother of Hades
+27,17,15,parent_of,3,Rhea is mother of Hestia
+28,20,22,parent_of,3,Hyperion is father of Helios
+29,20,23,parent_of,3,Hyperion is father of Selene
+30,20,24,parent_of,3,Hyperion is father of Eos
+31,21,22,parent_of,3,Theia is mother of Helios
+32,21,23,parent_of,3,Theia is mother of Selene
+33,21,24,parent_of,3,Theia is mother of Eos
+34,25,26,sibling_of,3,Prometheus and Epimetheus are brothers
+35,26,90,spouse_of,3,Epimetheus is linked with Pandora
+36,6,29,parent_of,28,Apollo is father of Asclepius
+37,6,94,child_of,3,Apollo is child of Leto
+38,7,94,child_of,3,Artemis is child of Leto
+39,9,73,associated_with,44,Aphrodite is involved in Ariadne traditions
+40,10,76,associated_with,28,Hephaestus and Daedalus are both divine or mortal craftsmen
+41,32,73,abandoned,44,Theseus abandons Ariadne
+42,32,75,killed,28,Theseus kills the Minotaur
+43,72,73,parent_of,28,Minos is father of Ariadne
+44,72,74,parent_of,28,Minos is father of Phaedra
+45,72,75,step_parent_or_owner_of,28,Minos is linked to the Minotaur
+46,76,77,parent_of,44,Daedalus is father of Icarus
+47,76,75,built_prison_for,28,Daedalus builds the Labyrinth for the Minotaur
+48,31,69,killed,44,Perseus kills Medusa
+49,69,68,parent_source_of,44,Pegasus springs from Medusa in later tradition
+50,67,68,rider_of,28,Bellerophon rides Pegasus
+51,33,34,partner_of,26,Jason is aided by Medea
+52,34,33,helped,26,Medea helps Jason obtain the Golden Fleece
+53,34,33,took_revenge_on,16,Medea takes revenge after Jason betrays her
+54,35,36,spouse_of,44,Orpheus is husband of Eurydice
+55,35,13,visited_realm_of,44,Orpheus descends to the Underworld
+56,46,47,spouse_of,2,Odysseus is husband of Penelope
+57,46,48,parent_of,2,Odysseus is father of Telemachus
+58,47,48,parent_of,2,Penelope is mother of Telemachus
+59,49,46,detained_or_transformed,2,Circe transforms or detains Odysseus crew
+60,50,46,detained,2,Calypso detains Odysseus
+61,53,46,enemy_of,2,Polyphemus is blinded by Odysseus
+62,54,46,helped,2,Aeolus gives Odysseus the bag of winds
+63,51,46,helped,2,Nausicaa helps Odysseus
+64,52,46,hosted,2,Alcinous hosts Odysseus
+65,37,38,companion_of,1,Achilles and Patroclus are close companions
+66,37,56,enemy_of,1,Achilles kills Hector
+67,56,38,killed,1,Hector kills Patroclus
+68,39,43,parent_of,22,Agamemnon is father of Iphigenia
+69,42,43,parent_of,22,Clytemnestra is mother of Iphigenia
+70,39,44,parent_of,7,Agamemnon is father of Orestes
+71,42,44,parent_of,7,Clytemnestra is mother of Orestes
+72,39,45,parent_of,14,Agamemnon is father of Electra
+73,42,45,parent_of,14,Clytemnestra is mother of Electra
+74,42,39,killed,6,Clytemnestra kills Agamemnon
+75,44,42,killed,7,Orestes kills Clytemnestra
+76,45,44,ally_of,14,Electra supports Orestes
+77,40,41,spouse_of,1,Menelaus is husband of Helen
+78,60,41,abducted_or_eloped_with,1,Paris takes Helen to Troy
+79,58,56,parent_of,1,Priam is father of Hector
+80,59,56,parent_of,1,Hecuba is mother of Hector
+81,58,60,parent_of,1,Priam is father of Paris
+82,59,60,parent_of,1,Hecuba is mother of Paris
+83,58,61,parent_of,1,Priam is father of Cassandra
+84,59,61,parent_of,1,Hecuba is mother of Cassandra
+85,56,57,spouse_of,1,Hector is husband of Andromache
+86,55,56,ally_of,1,Aeneas fights on the Trojan side with Hector
+87,63,37,ally_of,1,Ajax fights alongside Achilles
+88,64,46,ally_of,1,Diomedes and Odysseus are Greek allies
+89,65,39,advised,1,Nestor advises Agamemnon and the Greeks
+90,66,46,ally_of,15,Philoctetes is brought back with Odysseus involvement
+91,78,79,spouse_of,10,Oedipus is husband of Jocasta
+92,78,80,parent_of,12,Oedipus is father of Antigone
+93,79,80,parent_of,12,Jocasta is mother of Antigone
+94,78,81,parent_of,11,Oedipus is father of Ismene
+95,78,82,parent_of,12,Oedipus is father of Eteocles
+96,78,83,parent_of,12,Oedipus is father of Polyneices
+97,82,83,enemy_of,12,Eteocles and Polyneices fight for Thebes
+98,84,80,enemy_of,12,Creon opposes Antigone
+99,85,78,warned_or_revealed_truth_to,10,Tiresias reveals truth to Oedipus
+100,12,86,child_of,3,Dionysus is child of Semele

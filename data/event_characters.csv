@@ -1,0 +1,81 @@
+event_character_id,event_id,character_id,event_role,notes
+1,1,1,Victor,Zeus leads the Olympians
+2,1,16,Defeated ruler,Cronus leads the Titans
+3,1,17,Titan generation,Rhea belongs to the Titan generation
+4,1,25,Associated Titan,Prometheus is linked to the Titan generation
+5,2,90,Created figure,Pandora is created by the gods
+6,2,1,Instigator,Zeus orders Pandora creation
+7,2,25,Cause figure,Prometheus theft of fire leads to Zeus punishment
+8,2,26,Recipient,Epimetheus receives Pandora
+9,3,13,Abductor,Hades takes Persephone
+10,3,14,Abducted figure,Persephone becomes queen of the Underworld
+11,3,4,Grieving mother,Demeter searches for Persephone
+12,4,60,Judge,Paris judges the goddesses
+13,4,2,Contestant,Hera competes in the judgement
+14,4,5,Contestant,Athena competes in the judgement
+15,4,9,Contestant,Aphrodite competes in the judgement
+16,5,41,Central figure,Helen leaves Sparta for Troy
+17,5,60,Central figure,Paris takes Helen to Troy
+18,5,40,Wronged husband,Menelaus is Helen husband
+19,6,39,Greek commander,Agamemnon leads the fleet
+20,6,43,Sacrificial figure,Iphigenia is demanded before sailing
+21,7,43,Victim or rescued figure,Iphigenia is sacrificed or rescued depending on tradition
+22,7,39,Father,Agamemnon authorises the sacrifice
+23,7,42,Mother,Clytemnestra later responds to Iphigenia fate
+24,8,37,Angry hero,Achilles withdraws from fighting
+25,8,39,Opponent in dispute,Agamemnon quarrels with Achilles
+26,9,38,Victim,Patroclus is killed in battle
+27,9,56,Killer,Hector kills Patroclus
+28,9,37,Grieving companion,Achilles returns to battle after Patroclus death
+29,10,37,Killer,Achilles kills Hector
+30,10,56,Victim,Hector is killed outside Troy
+31,11,58,Defeated king,Priam loses Troy
+32,11,59,Defeated queen,Hecuba survives the fall in tragic traditions
+33,11,61,Victim or captive,Cassandra is taken after Troy falls
+34,11,55,Survivor,Aeneas escapes Troy in later Roman tradition
+35,12,55,Main figure,Aeneas flees Troy
+36,13,46,Main figure,Odysseus blinds Polyphemus
+37,13,53,Victim,Polyphemus is blinded
+38,13,3,Avenging father,Poseidon becomes hostile to Odysseus
+39,14,46,Visitor,Odysseus visits Circe
+40,14,49,Enchantress,Circe transforms Odysseus crew
+41,15,46,Detained hero,Odysseus is kept on Ogygia
+42,15,50,Detainer,Calypso detains Odysseus
+43,16,46,Returning hero,Odysseus returns to Ithaca
+44,16,47,Wife,Penelope waits in Ithaca
+45,16,48,Son,Telemachus helps with the homecoming
+46,17,39,Victim,Agamemnon is murdered
+47,17,42,Killer,Clytemnestra kills Agamemnon
+48,18,44,Avenger,Orestes kills Clytemnestra
+49,18,42,Victim,Clytemnestra is killed by Orestes
+50,18,45,Ally,Electra supports Orestes
+51,19,44,Defendant,Orestes is tried
+52,19,5,Divine supporter,Athena is linked to the trial tradition
+53,20,33,Quest leader,Jason leads the Argonauts
+54,20,34,Helper,Medea helps Jason
+55,21,34,Helper and strategist,Medea enables Jason success
+56,21,33,Beneficiary,Jason benefits from Medea help
+57,22,34,Main figure,Medea takes revenge
+58,22,33,Betrayer,Jason abandons Medea
+59,23,32,Monster slayer,Theseus kills the Minotaur
+60,23,75,Monster,The Minotaur is killed
+61,23,73,Helper,Ariadne helps Theseus
+62,23,76,Builder,Daedalus made the Labyrinth
+63,24,76,Escaping father,Daedalus escapes Crete
+64,24,77,Fallen son,Icarus falls during the escape
+65,25,31,Monster slayer,Perseus kills Medusa
+66,25,69,Victim,Medusa is beheaded
+67,25,68,Born from event,Pegasus emerges in later tradition
+68,26,78,Hero,Oedipus defeats the Sphinx
+69,27,78,Revealed figure,Oedipus discovers the truth
+70,27,79,Tragic figure,Jocasta is central to the revelation
+71,27,85,Truth teller,Tiresias reveals hidden truth
+72,28,80,Main figure,Antigone buries Polyneices
+73,28,83,Buried figure,Polyneices is the brother Antigone buries
+74,28,84,Opponent,Creon forbids the burial
+75,29,12,Avenging god,Dionysus punishes Thebes
+76,29,85,Prophet,Tiresias recognises Dionysus power
+77,29,86,Mother figure,Semele is linked to Dionysus origin
+78,30,35,Main figure,Orpheus descends to the Underworld
+79,30,36,Lost wife,Eurydice is the person Orpheus seeks
+80,30,13,Ruler of realm,Hades rules the Underworld

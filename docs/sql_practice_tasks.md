@@ -11,14 +11,19 @@ These tasks are designed for practising SQL with the MythosDB dataset.
 ```sql
 SELECT *
 FROM characters;
-2. Find all Olympian gods
+```
+###2. Find all Olympian gods
+
+```sql
 SELECT
     name,
     roman_name,
     domain
 FROM characters
 WHERE character_type LIKE '%Olympian%';
-3. Find all works written by Homer
+```
+###3. Find all works written by Homer
+```sql
 SELECT
     w.title,
     w.genre,
@@ -27,7 +32,9 @@ FROM works w
 JOIN authors a
     ON w.author_id = a.author_id
 WHERE a.name = 'Homer';
-4. Find all mythological locations
+```
+###4. Find all mythological locations
+```sql
 SELECT
     name,
     location_type,
@@ -35,7 +42,9 @@ SELECT
 FROM locations
 WHERE mythological = TRUE;
 Join Practice
-5. Show works with author names
+```
+###5. Show works with author names
+```sql
 SELECT
     w.title,
     a.name AS author,
@@ -43,7 +52,9 @@ SELECT
 FROM works w
 LEFT JOIN authors a
     ON w.author_id = a.author_id;
-6. Show characters and their origin locations
+```
+###6. Show characters and their origin locations
+```sql
 SELECT
     c.name AS character_name,
     c.character_type,
@@ -52,7 +63,9 @@ SELECT
 FROM characters c
 LEFT JOIN locations l
     ON c.origin_location_id = l.location_id;
-7. Show character appearances by work
+```
+###7. Show character appearances by work
+```sql
 SELECT
     w.title AS work_title,
     c.name AS character_name,
@@ -66,22 +79,30 @@ JOIN works w
 ORDER BY
     w.title,
     c.name;
-Aggregation Practice
+```
+
+### Aggregation Practice
 8. Count characters by type
+
+```sql
 SELECT
     character_type,
     COUNT(*) AS character_count
 FROM characters
 GROUP BY character_type
 ORDER BY character_count DESC;
-9. Count works by genre
+```
+###10. Count works by genre
+```sql
 SELECT
     genre,
     COUNT(*) AS work_count
 FROM works
 GROUP BY genre
 ORDER BY work_count DESC;
-10. Count appearances per character
+```
+###11. Count appearances per character
+```sql
 SELECT
     c.name,
     COUNT(ca.appearance_id) AS appearance_count
@@ -91,7 +112,9 @@ LEFT JOIN character_appearances ca
 GROUP BY c.name
 ORDER BY appearance_count DESC;
 Relationship Practice
-11. Find Zeus's children
+```
+###12. Find Zeus's children
+```sql
 SELECT
     target.name AS child_name,
     target.character_type,
@@ -103,7 +126,9 @@ JOIN characters target
     ON r.target_character_id = target.character_id
 WHERE source.name = 'Zeus'
   AND r.relationship_type = 'parent_of';
-12. Find all killings recorded in relationships
+```
+###13. Find all killings recorded in relationships
+```sql
 SELECT
     source.name AS killer,
     target.name AS victim,
@@ -117,7 +142,9 @@ JOIN characters target
 LEFT JOIN works w
     ON r.source_work_id = w.work_id
 WHERE r.relationship_type = 'killed';
-13. Find all enemies
+```
+###14. Find all enemies
+```sql
 SELECT
     source.name AS character_one,
     target.name AS character_two,
@@ -129,7 +156,9 @@ JOIN characters target
     ON r.target_character_id = target.character_id
 WHERE r.relationship_type = 'enemy_of';
 Events Practice
-14. Show events with locations and source works
+```
+###15. Show events with locations and source works
+```sql
 SELECT
     e.event_name,
     e.event_type,
@@ -140,7 +169,9 @@ LEFT JOIN locations l
     ON e.primary_location_id = l.location_id
 LEFT JOIN works w
     ON e.source_work_id = w.work_id;
-15. Find all characters involved in the Trojan War events
+```
+###16. Find all characters involved in the Trojan War events
+```sql
 SELECT
     e.event_name,
     c.name AS character_name,
@@ -155,7 +186,9 @@ ORDER BY
     e.event_name,
     c.name;
 Crimes and Punishments Practice
-16. Find actions likely illegal today
+```
+###17. Find actions likely illegal today
+```sql
 SELECT
     c.name,
     cp.alleged_action,
@@ -166,7 +199,9 @@ LEFT JOIN characters c
     ON cp.character_id = c.character_id
 WHERE cp.likely_illegal_today = 'TRUE'
 ORDER BY cp.severity_rating DESC;
-17. Find legally unclear cases
+```
+###18. Find legally unclear cases
+```sql
 SELECT
     c.name,
     cp.alleged_action,
@@ -175,7 +210,9 @@ FROM crimes_and_punishments cp
 LEFT JOIN characters c
     ON cp.character_id = c.character_id
 WHERE cp.likely_illegal_today = 'UNCLEAR';
-18. Average severity by character
+```
+###19. Average severity by character
+```sql
 SELECT
     c.name,
     ROUND(AVG(cp.severity_rating), 2) AS average_severity,
@@ -186,7 +223,9 @@ JOIN characters c
 GROUP BY c.name
 ORDER BY average_severity DESC;
 Challenge Tasks
-19. Which works have the most character appearances?
+```
+###20. Which works have the most character appearances?
+```sql
 SELECT
     w.title,
     COUNT(ca.appearance_id) AS appearance_count
@@ -195,7 +234,9 @@ LEFT JOIN character_appearances ca
     ON w.work_id = ca.work_id
 GROUP BY w.title
 ORDER BY appearance_count DESC;
-20. Which locations are linked to the most works?
+```
+###21. Which locations are linked to the most works?
+```sql
 SELECT
     l.name,
     COUNT(wl.work_id) AS work_count
@@ -204,7 +245,9 @@ LEFT JOIN work_locations wl
     ON l.location_id = wl.location_id
 GROUP BY l.name
 ORDER BY work_count DESC;
-21. Find characters who have aliases
+```
+###22. Find characters who have aliases
+```sql
 SELECT
     c.name,
     ca.alias_name,
@@ -214,7 +257,9 @@ FROM character_aliases ca
 JOIN characters c
     ON ca.character_id = c.character_id
 ORDER BY c.name;
-22. Find characters who are both in events and crimes
+```
+###23. Find characters who are both in events and crimes
+```sql
 SELECT DISTINCT
     c.name
 FROM characters c
@@ -223,21 +268,6 @@ JOIN event_characters ec
 JOIN crimes_and_punishments cp
     ON c.character_id = cp.character_id
 ORDER BY c.name;
-Extra Challenge
+```
 
-Write your own query to answer:
-
-Which mythological figure causes the most trouble?
-
-You will need to decide what “trouble” means.
-
-Possible options:
-
-number of crimes
-severity rating
-number of enemies
-number of events
-number of punishments
-number of relationships involving conflict
-
-This is deliberately open-ended, because real analysis often starts with a vague question and a suspicious spreadsheet.
+ because real analysis often starts with a vague question and a suspicious spreadsheet.

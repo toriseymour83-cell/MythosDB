@@ -206,7 +206,7 @@ LEFT JOIN works w
     ON e.source_work_id = w.work_id;
 ```
 
-### 15. Find all characters involved in the Trojan War events
+### 15. Find all characters involved in Trojan War events
 
 ```sql
 SELECT
@@ -240,7 +240,8 @@ FROM crimes_and_punishments cp
 LEFT JOIN characters c
     ON cp.character_id = c.character_id
 WHERE cp.likely_illegal_today = 'TRUE'
-ORDER BY cp.severity_rating DESC;
+ORDER BY
+    cp.severity_rating DESC;
 ```
 
 ### 17. Find legally unclear cases
@@ -266,8 +267,10 @@ SELECT
 FROM crimes_and_punishments cp
 JOIN characters c
     ON cp.character_id = c.character_id
-GROUP BY c.name
-ORDER BY average_severity DESC;
+GROUP BY
+    c.name
+ORDER BY
+    average_severity DESC;
 ```
 
 ---
@@ -283,8 +286,10 @@ SELECT
 FROM works w
 LEFT JOIN character_appearances ca
     ON w.work_id = ca.work_id
-GROUP BY w.title
-ORDER BY appearance_count DESC;
+GROUP BY
+    w.title
+ORDER BY
+    appearance_count DESC;
 ```
 
 ### 20. Which locations are linked to the most works?
@@ -296,8 +301,10 @@ SELECT
 FROM locations l
 LEFT JOIN work_locations wl
     ON l.location_id = wl.location_id
-GROUP BY l.name
-ORDER BY work_count DESC;
+GROUP BY
+    l.name
+ORDER BY
+    work_count DESC;
 ```
 
 ### 21. Find characters who have aliases
@@ -311,7 +318,8 @@ SELECT
 FROM character_aliases ca
 JOIN characters c
     ON ca.character_id = c.character_id
-ORDER BY c.name;
+ORDER BY
+    c.name;
 ```
 
 ### 22. Find characters who are both in events and crimes
@@ -324,8 +332,53 @@ JOIN event_characters ec
     ON c.character_id = ec.character_id
 JOIN crimes_and_punishments cp
     ON c.character_id = cp.character_id
-ORDER BY c.name;
+ORDER BY
+    c.name;
 ```
 
----
+### 23. Find source references by confidence level
 
+```sql
+SELECT
+    sr.confidence_level,
+    sr.entity_type,
+    sr.entity_id,
+    s.title AS source_title,
+    sr.reference_note
+FROM source_references sr
+JOIN sources s
+    ON sr.source_id = s.source_id
+ORDER BY
+    sr.confidence_level,
+    sr.entity_type,
+    sr.entity_id;
+```
+
+### 24. Find characters linked to mythological locations
+
+```sql
+SELECT
+    c.name AS character_name,
+    c.character_type,
+    l.name AS location_name,
+    l.location_type
+FROM characters c
+JOIN locations l
+    ON c.origin_location_id = l.location_id
+WHERE l.mythological = TRUE
+ORDER BY
+    c.name;
+```
+
+### 25. Create your own definition of high-impact characters
+
+Write a query to identify high-impact characters using one or more of the following:
+
+- number of work appearances
+- number of events
+- number of relationships
+- number of source references
+- average severity rating in `crimes_and_punishments`
+- number of linked locations
+
+There is no single correct answer. The purpose is to practise defining a metric and explaining the reasoning behind it.

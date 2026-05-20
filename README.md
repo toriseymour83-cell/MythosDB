@@ -196,6 +196,34 @@ relationship_id,source_character_id,target_character_id,relationship_type,source
 
 ---
 
+## Crimes and Punishments Table
+
+MythosDB includes a `crimes_and_punishments.csv` table as a playful analytical extension of the main mythology dataset.
+
+This table records selected mythological offences, punishments, acts of revenge, divine consequences, and morally questionable behaviour. It also includes a simplified comparison with possible modern UK legal categories.
+
+This is not legal advice and should not be treated as an authoritative legal resource. The modern UK law comparison is included only for data analysis, discussion, and sandbox learning purposes.
+
+The purpose of this table is to make the dataset more interesting to explore. It allows users to ask questions such as:
+
+- Which mythological characters commit the most serious offences?
+- Which events involve revenge, abduction, killing, or unlawful punishment?
+- Which actions would clearly be illegal today?
+- Which actions are legally ambiguous because of consent, self-defence, war, divine intervention, or monster classification?
+- Which punishments seem disproportionate by modern standards?
+
+The `likely_illegal_today` field uses three broad values:
+
+| Value | Meaning |
+|---|---|
+| TRUE | The action would likely be unlawful under modern UK law |
+| FALSE | The action would likely not be criminal in itself |
+| UNCLEAR | The action depends heavily on context, interpretation, or legal classification |
+
+Some entries are deliberately uncertain. This reflects the nature of mythology, where stories often involve gods, monsters, curses, divine commands, disputed consent, magical transformations, heroic violence, and events that do not map neatly onto modern legal categories.
+
+The table is intended to add humour, debate, and analytical complexity while still encouraging careful thinking about classification and uncertainty.
+
 ## Suggested Next Steps
 
 ### Phase 1

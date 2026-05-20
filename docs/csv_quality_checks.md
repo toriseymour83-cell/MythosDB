@@ -2,7 +2,6 @@
 
 This document explains basic checks to run when adding or editing MythosDB CSV files.
 
-CSV files are simple, but they are also very easy to break. A single comma in the wrong place can make GitHub, Excel, SQL imports, or Power BI very unhappy.
 
 ---
 
@@ -260,4 +259,4 @@ When in doubt:
 If a field contains a comma, wrap the whole field in quotation marks.
 ```
 
-CSV is not clever. It is just a tiny table dragon counting commas.
+
